@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>upimages - Modern Image Sharing</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%232563eb'/><path fill='%23fff' d='M70 35H60V25H40v10H30v30h10v10h20V65h10V35zm-10 25h-4v4h-12v-4h-4V45h4v-4h12v4h4v15zm-4-15h-12v4h12v-4z'/></svg>">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='%232563eb'/><path fill='%23fff' d='M70 35H60V25H40v10H30v30h10v10h20V65h10V35zm-10 25h-4v4h-12v-4h-4V45h4v-4h12v4h4v15zm-4-15h-12v4h12v-4z'/></svg>">
+</head>
+<body>
+    <header class="main-header">
+        <h1 class="gradient-text">upimages</h1>
+        <p class="tagline">Share your moments in style</p>
+    </header>
+
+    <main class="content-wrapper">
+        <section class="upload-section">
+            <div class="drop-zone" id="dropZone">
+                <span class="drop-instructions">Drag & drop images here</span>
+                <span class="or-divider">or</span>
+                <input type="file" id="fileInput" accept="image/*" multiple hidden>
+                <label for="fileInput" class="browse-btn">Browse Files</label>
+            </div>
+        </section>
+
+        <section class="gallery-section">
+            <div class="image-grid" id="imageGrid">
+                <!-- JavaScript will populate this -->
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>Developed by 
+        <a href="https://www.linkedin.com/in/m-alaa-emirah/" target="_blank">M. Alaa Emirah</a> 
+        © 2025 upimages. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+	 
+</body>
+</html>
