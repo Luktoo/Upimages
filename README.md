@@ -1,6 +1,6 @@
 # upimages - Modern Image Sharing Platform
 
-i.postimg.cc/90RX7XW0/Shared-Screenshot.jpg
+<a href='https://postimg.cc/sGzRFrGC' target='_blank'><img src='https://i.postimg.cc/sGzRFrGC/Shared-Screenshot.jpg' border='0' alt='Shared-Screenshot'/></a>
 
 A lightweight image sharing website with drag-and-drop uploads and shareable links.
 
