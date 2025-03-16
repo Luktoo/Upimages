@@ -36,7 +36,7 @@ This project is licensed under the **upimages Open Source License**:
 
 1. **Clone repository**
 ```bash
-git clone https://your-repo-url.git /var/www/upimages
+git clone https://github.com/Luktoo/Upimages.git /var/www/upimages
 cd /var/www/upimages
 ```
 
